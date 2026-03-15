@@ -146,7 +146,7 @@ st.title("Create Anki flashcards from your question and vectorised PDF content")
 with st.form("rag_flashcard_form"):
     flashcard_question = st.text_input("Question for flashcard generation")
     flashcard_top_k = st.number_input("How many chunks to retrieve for flashcards", min_value=1, max_value=20, value=5, step=1)
-    num_flashcards = st.number_input("Number of flashcards", min_value=1, max_value=50, value=5, step=1)
+    num_flashcards = st.number_input("Mx Number of flashcards", min_value=1, max_value=50, value=5, step=1)
     flashcard_submitted = st.form_submit_button("Generate flashcards")
 
     if flashcard_submitted and flashcard_question.strip():
