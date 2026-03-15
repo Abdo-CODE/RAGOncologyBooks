@@ -1,4 +1,4 @@
-# RAGProductionApp
+# RAGOncologyBooks
 
 RAGProductionApp is a local Retrieval-Augmented Generation (RAG) app for studying PDF material.
 It lets you:
