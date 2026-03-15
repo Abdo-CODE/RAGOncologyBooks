@@ -1,0 +1,27 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Environment files
+.env
+.env.*
+
+# App upload/output artifacts
+uploads/
+exports/
+output*.apkg
+
+# Local vector database/state
+qdrant_storage/
+quadrant_storage/
+
+# Local study source data (do not publish)
+Oncology books from ESMO/
+LEARNING_SUMMARY_*.md

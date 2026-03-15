@@ -1,0 +1,19 @@
+[project]
+name = "ragproductionapp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.135.1",
+    "genanki>=0.13.1",
+    "inngest>=0.5.17",
+    "llama-index-core>=0.14.15",
+    "llama-index-readers-file>=0.5.6",
+    "openai>=2.26.0",
+    "python-dotenv>=1.2.2",
+    "qdrant-client>=1.17.0",
+    "sentence-transformers>=5.2.3",
+    "streamlit>=1.55.0",
+    "uvicorn>=0.41.0",
+]
